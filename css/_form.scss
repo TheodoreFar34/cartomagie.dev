@@ -1,0 +1,44 @@
+input {
+  display: block;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid #BBD2E1;
+  width: 75%;
+  margin: auto;
+  line-height: 3;
+  border-radius: 1px;
+  font-size: 17px; }
+
+input:focus {
+  border-top: none;
+  border-bottom: 3px solid dodgerblue; }
+
+input:hover {
+  border-top: none;
+  border-bottom: 3px solid dodgerblue; }
+
+form button {
+  margin-top: 10px;
+  padding: 13px;
+  border-radius: 5px;
+  font: inherit;
+  border: 1px solid dodgerblue;
+  background-color: #fff;
+  color: dodgerblue;
+  transition: all 0.5s ease; }
+
+form button:hover {
+  padding: 13px;
+  background-color: dodgerblue;
+  color: white; }
+
+form button:focus {
+  padding: 13px;
+  background-color: dodgerblue;
+  color: white; }
+
+* {
+  outline: none; }
+form label a {
+  color: #00b0ff; }
